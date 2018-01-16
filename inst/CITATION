@@ -1,0 +1,38 @@
+citHeader("To cite tasic2016data in publications use:")
+
+citEntry(entry = "Article",
+  title = "Adult mouse cortical cell taxonomy revealed by single cell transcriptomics",
+  author = personList(as.person("Bosiljkat Tasic"),
+                      as.person("Vilas Menon"),
+                      as.person("Thuc Nghi Nguyen"),
+                      as.person("Tae Kyng Kim"),
+                      as.person("Tim Jarsky"),
+                      as.person("Zizhen Yao"),
+                      as.person("Boaz Levi"),
+                      as.person("Lucas T Gray"),
+                      as.person("Staci A Sorenson"),
+                      as.person("Tim Dolbeare"),
+                      as.person("Darren Bertagnolli"),
+                      as.person("Jeff Goldy"),
+                      as.person("Nadiya Shapovalova"),
+                      as.person("Sheana Parry"),
+                      as.person("Changkyu Lee"),
+                      as.person("Kimberly Smith"),
+                      as.person("Amy Bernard"),
+                      as.person("Linda Madisen"),
+                      as.person("Susan M Sunkin"),
+                      as.person("Michael Hawrylycz"),
+                      as.person("Christof Koch"),
+                      as.person("Hongkui Zeng")),
+  journal = "Nature Neuroscience",
+  year = "2016",
+  volume = "19",
+  pages = "335--346",
+  url = "https://www.nature.com/articles/nn.4216",
+
+  textVersion = paste("Tasic B, et al. (2016)",
+                      "Adult mouse cortical cell taxonomy revealed by single cell transcriptomics.",
+                      "Nat Neurosci, 40, 335-346.",
+                      "URL https://www.nature.com/articles/nn.4216"
+    )
+  )
