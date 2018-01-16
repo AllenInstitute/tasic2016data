@@ -29,10 +29,11 @@ citEntry(entry = "Article",
   volume = "19",
   pages = "335--346",
   url = "https://www.nature.com/articles/nn.4216",
+  doi = "doi:10.1038/nn.4216"
 
   textVersion = paste("Tasic B, et al. (2016)",
                       "Adult mouse cortical cell taxonomy revealed by single cell transcriptomics.",
                       "Nat Neurosci, 40, 335-346.",
-                      "URL https://www.nature.com/articles/nn.4216"
+                      "DOI doi:10.1038/nn.4216"
     )
   )
