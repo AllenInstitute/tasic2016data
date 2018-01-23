@@ -4,7 +4,7 @@ Title: Single neuron transcriptomic data from Tasic, et al. (2016)
 Version: 1.0
 Author: Lucas T. Graybuck <lucasg@alleninstitute.org>
 Maintainer: Lucas T. Graybuck <lucasg@alleninstitute.org>
-Description:
+Description: Data matrices and sample annotations from "Adult mouse cortical cell taxonomy revealed by single cell transcriptomics", 2017, Nature Neuroscience. The dataset consists of scRNA-seq measurements from 1,679 cells.
 License: file LICENSE
 Encoding: UTF-8
 LazyData: true

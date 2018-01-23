@@ -28,7 +28,7 @@
 #'
 #' Each row corresponds to a single gene symbol. Each column corresponds to a single cell.
 #'
-#' @format A matrix with 1670 columns (cells) and 24,057 rows (genes)
+#' @format A matrix with 1679 columns (cells) and 24,057 rows (genes)
 #' \describe{
 #'  \item{rows}{Each row corresponds to a single RefSeq gene symbol.}
 #'  \item{columns}{Each column is named using a unique cell identifier that corresponds to the sample_id column in the tasic_2016_anno table.}
@@ -43,7 +43,7 @@
 #'
 #' Each row corresponds to a single gene symbol. Each column corresponds to a single cell.
 #'
-#' @format A matrix with 1670 columns (cells) and 24,057 rows (genes)
+#' @format A matrix with 1679 columns (cells) and 24,057 rows (genes)
 #' \describe{
 #'  \item{rows}{Each row corresponds to a single RefSeq gene symbol.}
 #'  \item{columns}{Each column is named using a unique cell identifier that corresponds to the sample_id column in the tasic_2016_anno table.}
