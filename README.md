@@ -10,7 +10,7 @@ It contains data for all cells released on GEO for this article, deposited at ac
 There are only 3 data objects in this package, and no functions. They are:  
 `tasic_2016_anno`: A data.frame with annotations for each sample. See `?tasic_2016_anno` for descriptions of each column.  
 `tasic_2016_counts`: A matrix of read counts from RSEM analysis for each gene used in Tasic, _et al._ (2016).  
-`tasic_2016_fpkm`: A matrix FPKM values for each gene used in Tasic, _et al._ (2016).  
+`tasic_2016_fpkm`: A matrix of FPKM values for each gene used in Tasic, _et al._ (2016).  
 
 ## Installation
 
