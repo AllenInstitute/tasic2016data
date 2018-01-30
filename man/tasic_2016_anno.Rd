@@ -4,7 +4,7 @@
 \name{tasic_2016_anno}
 \alias{tasic_2016_anno}
 \title{Annotations for V1 single-cell transcriptomic datasets}
-\format{A Data Frame with 11 columns and 1679 rows
+\format{A Data Frame with 11 columns and 1809 rows
 \describe{
  \item{sample_id}{An ID that uniquely corresponds to a single cell. Matches column names in tasic_2016_counts and tasic_2016_rpkm}
  \item{mouse_line}{Short identifier for the Cre line that the cell was collected from}
@@ -18,13 +18,13 @@
  \item{core_intermediate}{Flag for cells that are assigned to "core" or "intermediate" cell type identity based on random forest analysis}
  \item{primary_type}{The primary cell type assigned to each cell}
  \item{secondary_type}{If a cell is intermediate, the secondary cell type assigned to each cell. If the cell is core, this will be blank ("")}
- \itme{aibs_vignette_id}{A unique short cell identifier that is used in the Allen Brain Institute Vignette at http://casestudies.brain-map.org/celltax }
+ \item{aibs_vignette_id}{A unique short cell identifier that is used in the Allen Brain Institute Vignette at http://casestudies.brain-map.org/celltax }
 }}
 \usage{
 tasic_2016_anno
 }
 \description{
-A dataset consisting of descriptive annotation data for all 1679
+A dataset consisting of descriptive annotation data for all 1809
 cells characterized in Tasic, et al. (2016).
 }
 \keyword{datasets}

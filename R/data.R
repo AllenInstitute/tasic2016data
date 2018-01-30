@@ -1,9 +1,9 @@
 #' Annotations for V1 single-cell transcriptomic datasets
 #'
-#' A dataset consisting of descriptive annotation data for all 1679
+#' A dataset consisting of descriptive annotation data for all 1809
 #' cells characterized in Tasic, et al. (2016).
 #'
-#' @format A Data Frame with 11 columns and 1679 rows
+#' @format A Data Frame with 11 columns and 1809 rows
 #' \describe{
 #'  \item{sample_id}{An ID that uniquely corresponds to a single cell. Matches column names in tasic_2016_counts and tasic_2016_rpkm}
 #'  \item{mouse_line}{Short identifier for the Cre line that the cell was collected from}
@@ -23,12 +23,12 @@
 
 #' RPKM matrix for single-cell transcriptomic datasets
 #'
-#' A matrix consisting of RPKM values for all 1679 cells
+#' A matrix consisting of RPKM values for all 1809 cells
 #' characterized in Tasic, et al. (2016).
 #'
 #' Each row corresponds to a single gene symbol. Each column corresponds to a single cell.
 #'
-#' @format A matrix with 1679 columns (cells) and 24,057 rows (genes)
+#' @format A matrix with 1809 columns (cells) and 24,057 rows (genes)
 #' \describe{
 #'  \item{rows}{Each row corresponds to a single RefSeq gene symbol.}
 #'  \item{columns}{Each column is named using a unique cell identifier that corresponds to the sample_id column in the tasic_2016_anno table.}
@@ -38,12 +38,12 @@
 
 #' Count matrix for single-cell transcriptomic datasets
 #'
-#' A matrix consisting of read count values for all 1679 cells
+#' A matrix consisting of read count values for all 1809 cells
 #' characterized in Tasic, et al. (2016).
 #'
 #' Each row corresponds to a single gene symbol. Each column corresponds to a single cell.
 #'
-#' @format A matrix with 1679 columns (cells) and 24,057 rows (genes)
+#' @format A matrix with 1809 columns (cells) and 24057 rows (genes)
 #' \describe{
 #'  \item{rows}{Each row corresponds to a single RefSeq gene symbol.}
 #'  \item{columns}{Each column is named using a unique cell identifier that corresponds to the sample_id column in the tasic_2016_anno table.}
