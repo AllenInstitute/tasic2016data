@@ -17,7 +17,7 @@ There are only 3 data objects in this package, and no functions. They are:
 The package can be installed from Github using the devtools package:
 
 ```r
-devtools::install.github("AllenInstitute/tasic2016data")
+devtools::install_github("AllenInstitute/tasic2016data")
 ```
 
 Once installed, the dataset will be placed in the user's R LazyLoad database, and can be easily retrieved:
