@@ -6,7 +6,7 @@
 \title{Annotations for V1 single-cell transcriptomic datasets}
 \format{A Data Frame with 11 columns and 1809 rows
 \describe{
- \item{sample_id}{An ID that uniquely corresponds to a single cell. Matches column names in tasic_2016_counts and tasic_2016_rpkm}
+ \item{sample_name}{An ID that uniquely corresponds to a single cell. Matches column names in tasic_2016_counts and tasic_2016_rpkm}
  \item{mouse_line}{Short identifier for the Cre line that the cell was collected from}
  \item{cre_driver_1}{Full name of the first Cre line used to generate the mouse line}
  \item{cre_driver_2}{Full name of the second Cre line used to generate the mouse line, if used. If not, it will be blank ("")}

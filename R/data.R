@@ -5,7 +5,7 @@
 #'
 #' @format A Data Frame with 11 columns and 1809 rows
 #' \describe{
-#'  \item{sample_id}{An ID that uniquely corresponds to a single cell. Matches column names in tasic_2016_counts and tasic_2016_rpkm}
+#'  \item{sample_name}{An ID that uniquely corresponds to a single cell. Matches column names in tasic_2016_counts and tasic_2016_rpkm}
 #'  \item{mouse_line}{Short identifier for the Cre line that the cell was collected from}
 #'  \item{cre_driver_1}{Full name of the first Cre line used to generate the mouse line}
 #'  \item{cre_driver_2}{Full name of the second Cre line used to generate the mouse line, if used. If not, it will be blank ("")}
@@ -35,7 +35,7 @@
 #' @format A matrix with 1809 columns (cells) and 24,057 rows (genes)
 #' \describe{
 #'  \item{rows}{Each row corresponds to a single RefSeq gene symbol.}
-#'  \item{columns}{Each column is named using a unique cell identifier that corresponds to the sample_id column in the tasic_2016_anno table.}
+#'  \item{columns}{Each column is named using a unique cell identifier that corresponds to the sample_name column in the tasic_2016_anno table.}
 #' }
 #'
 "tasic_2016_rpkm"
@@ -50,7 +50,7 @@
 #' @format A matrix with 1809 columns (cells) and 24057 rows (genes)
 #' \describe{
 #'  \item{rows}{Each row corresponds to a single RefSeq gene symbol.}
-#'  \item{columns}{Each column is named using a unique cell identifier that corresponds to the sample_id column in the tasic_2016_anno table.}
+#'  \item{columns}{Each column is named using a unique cell identifier that corresponds to the sample_name column in the tasic_2016_anno table.}
 #' }
 #'
 "tasic_2016_counts"

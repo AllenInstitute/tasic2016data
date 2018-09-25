@@ -38,7 +38,7 @@ To obtain the set of cells that was used for clustering in Tasic, _et al._ (2016
 ```r
 clustered_samples <- tasic_2016_anno$core_intermediate != "unclassified" & tasic_2016_anno$cre_driver_1 != "CAV2-Cre"
 clustered_anno <- tasic_2016_anno[clustered_samples, ]
-clustered_counts <- tasic_2016_counts[clustered_anno$sample_id, ]
+clustered_counts <- tasic_2016_counts[clustered_anno$sample_name, ]
 ```
 
 ## Citation
