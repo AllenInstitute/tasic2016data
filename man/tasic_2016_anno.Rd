@@ -4,7 +4,8 @@
 \name{tasic_2016_anno}
 \alias{tasic_2016_anno}
 \title{Annotations for V1 single-cell transcriptomic datasets}
-\format{A Data Frame with 11 columns and 1809 rows
+\format{
+A Data Frame with 11 columns and 1809 rows
 \describe{
  \item{sample_name}{An ID that uniquely corresponds to a single cell. Matches column names in tasic_2016_counts and tasic_2016_rpkm}
  \item{mouse_line}{Short identifier for the Cre line that the cell was collected from}
@@ -16,10 +17,15 @@
  \item{pass_qc_checks}{Flag for cells that did or did not pass initial QC checks. "Y" or "N".}
  \item{broad_type}{Broad classification of cell types}
  \item{core_intermediate}{Flag for cells that are assigned to "core" or "intermediate" cell type identity based on random forest analysis}
- \item{primary_type}{The primary cell type assigned to each cell}
- \item{secondary_type}{If a cell is intermediate, the secondary cell type assigned to each cell. If the cell is core, this will be blank ("")}
  \item{aibs_vignette_id}{A unique short cell identifier that is used in the Allen Brain Institute Vignette at http://casestudies.brain-map.org/celltax }
-}}
+ \item{primary_type_id}{ID number for the primary cell type assigned to each cell}
+ \item{primary_type}{The primary cell type assigned to each cell}
+ \item{primary_type_color}{Color for the primary cell type assigned to each cell}
+ \item{secondary_type_id}{ID number for the secondary cell type assigned to each cell}
+ \item{secondary_type}{The secondary cell type assigned to each cell}
+ \item{secondary_type_color}{Color for the secondary cell type assigned to each cell}
+}
+}
 \usage{
 tasic_2016_anno
 }

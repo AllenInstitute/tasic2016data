@@ -4,11 +4,13 @@
 \name{tasic_2016_counts}
 \alias{tasic_2016_counts}
 \title{Count matrix for single-cell transcriptomic datasets}
-\format{A matrix with 1809 columns (cells) and 24057 rows (genes)
+\format{
+A matrix with 1809 columns (cells) and 24057 rows (genes)
 \describe{
  \item{rows}{Each row corresponds to a single RefSeq gene symbol.}
- \item{columns}{Each column is named using a unique cell identifier that corresponds to the sample_id column in the tasic_2016_anno table.}
-}}
+ \item{columns}{Each column is named using a unique cell identifier that corresponds to the sample_name column in the tasic_2016_anno table.}
+}
+}
 \usage{
 tasic_2016_counts
 }
